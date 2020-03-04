@@ -1,5 +1,6 @@
 ---
 title: coq-ext-lib
+lang: en
 header-includes:
   - |
     <style type="text/css"> body {font-family: Arial, Helvetica; margin-left: 5em; font-size: large;} </style>
@@ -27,8 +28,12 @@ The current stable release of coq-ext-lib can be [downloaded from GitHub](https:
 
 ## Documentation
 
+The coqdoc presentations of the source files from releases can be browsed online.
+
 - Development branch: [master](master/toc.html)
 - Releases:
+  + [v0.11.1](v0.11.1/toc.html)
+  + [v0.11.0](v0.11.0/toc.html)
   + [v0.10.3](v0.10.3/toc.html)
   + [v0.10.2](v0.10.2/toc.html)
 
