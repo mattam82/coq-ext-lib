@@ -1,4 +1,6 @@
 *.vo
+*.vok
+*.vos
 *.glob
 *.v.d
 *.cmi
@@ -16,3 +18,5 @@ Makefile.opam.coq
 deps.dot
 deps.pdf
 .coqdeps.d
+*.Makefile.coq.d
+*.lia.cache

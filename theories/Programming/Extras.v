@@ -13,6 +13,8 @@ Open Scope monad_scope.
 Set Implicit Arguments.
 Set Maximal Implicit Insertion.
 
+Import ListNotations.
+
 Module FunNotation.
 
   Notation "f $ x" := (f x)
