@@ -200,7 +200,7 @@ Section pair_Show.
   Import ShowNotation.
   Local Open Scope show_scope.
   Definition pair_Show@{a m t}
-              {A : Type@{a}} {B : Type@{a}} {AS:Show A} {BS:Show B}
+              {A : Type@{a}} {B : Type@{a}} {AS:Show@{a m} A} {BS:Show@{a m} B}
   : Show@{_ t} (A*B) :=
     fun p =>
       let (a,b) := p in
